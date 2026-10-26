@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+tests/shots/
+*.log
+.DS_Store
+# real captures must never be committed
+*.pcap
+*.pcapng
+!samples/*.pcap
+!tests/data/*.pcap
+!tests/data/*.pcapng
