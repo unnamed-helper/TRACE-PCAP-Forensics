@@ -1,0 +1,2 @@
+alert http any any -> any any (msg:"TRACE folder example: sqlmap UA"; http.user_agent; content:"sqlmap"; sid:9100001; rev:1; classtype:web-application-attack; priority:1;)
+alert tcp any any -> any 80 (msg:"TRACE folder example: admin URI"; flow:established,to_server; http.uri; content:"/admin"; sid:9100002; rev:1; priority:2;)
