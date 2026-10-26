@@ -128,9 +128,7 @@ start.sh / START-WINDOWS.bat
 rules/              your .rules files (example included)
 samples/            small SYNTHETIC captures for trying the tool
 docs/               guides and screenshots
-tests/              browser + Suricata test suites and fixtures
 tools/              scripts that generate the synthetic captures (needs scapy)
-posts/              launch write-ups (LinkedIn / Medium drafts)
 ```
 
 ## Limitations (please read)
