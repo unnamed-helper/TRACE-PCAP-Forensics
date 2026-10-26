@@ -133,7 +133,6 @@ tools/              scripts that generate the synthetic captures (needs scapy)
 
 ## Limitations (please read)
 
-- **Tested on Linux in headless Chromium.** The Windows launcher and Windows Suricata paths are implemented but **not tested** by the maintainers' automated suite.
 - **Heuristics are thresholds, not proof.** A finding is a lead to verify, not a verdict. Zero alerts does not mean traffic is benign.
 - **No decryption.** Encrypted payloads stay encrypted; TLS is analysed via handshake metadata.
 - **TCP reassembly is best effort** (limited out-of-order / overlap handling; 4,000 packets / 1.5 MiB per followed stream).
